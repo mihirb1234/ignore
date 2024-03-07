@@ -41,7 +41,7 @@ function App() {
         </div>
       </div>
 
-      <audio ref={audioRef} src={funi} autoPlay loop className="hidden" />
+      <audio ref={audioRef} src={funi} autoPlay loop />
     </div>
   );
 }
